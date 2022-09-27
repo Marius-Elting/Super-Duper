@@ -16,12 +16,12 @@ html {
 }
 
 .oben a {
-    border: 3px solid black;
-    padding: 13px 20px 7px 20px;
+    border: 3px solid  #333;
+    padding: 14px 22px 6px 22px;
     border-radius: 100px;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: #333;
     background-image: linear-gradient(to top right, #8507e1, #3dc8d5);
     height: 50px;
     width: 50px;
@@ -113,7 +113,7 @@ main .swd h2 {
 }
 
 main .swd p {
-    margin-right: 600px;
+    margin-right: 20vw;
     margin-top: 20px;
     display: inlline-block;
     font-family: MavenPro;
@@ -121,7 +121,7 @@ main .swd p {
 
 .wwd {
     padding: 0px 100px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .pic {
@@ -139,4 +139,34 @@ main .swd p {
 .pbp {
     margin-top: 20px;
     font-family: MavenPro;
+}
+
+footer {
+    background: #333;
+    height: 10vh;
+}
+
+footer ul {
+    text-align: center;
+
+}
+
+footer ul li {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 4vh;
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: MavenPro;
+    font-size: 1.2em;
+}
+
+footer ul li a:hover {
+    color: #ccc;
+
 }
